@@ -1,0 +1,282 @@
+body {
+    font-family: 'Changa', sans-serif;
+}
+
+header {
+    width: 100%;
+    background: rgb(116, 20, 20);
+    padding: 15px 0px;
+}
+
+.cabecalho {
+    position: relative;
+    padding: 15px;
+    height: 300px;
+
+
+}
+
+.titulo-cabecalho {
+
+    width: 15%;
+    height: 300px;
+    float: left;
+  
+}
+
+.simbolo-noxus {
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+}
+
+.titulo-noxus {
+    font-size: 1.8em;
+    text-align: center;
+    color:rgb(221, 200, 132);
+  
+}
+
+.corvo-noxus {
+    width: 40px;
+}
+
+.nav-cabecalho {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translate(0%, -220%);
+}
+
+.item-cabecalho {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.item-cabecalho a {
+    color:rgb(200, 169, 66);
+    font-weight:bold;
+    font-size: 1.6em;
+    background-color: rgb(251, 242, 242);
+    text-decoration: none;
+    transition: 300ms all;
+    padding: 10px;
+    border-radius: 7px; 
+}
+
+
+.item-cabecalho a:hover {
+    color:rgb(201, 12, 12);
+    background-color: rgb(0, 0, 0);
+}
+
+
+.historia-noxus {
+    margin: 1em 0em;
+    padding: 30px;  
+
+
+}
+
+.conteudo {
+    padding: 50px 0px;
+    
+}
+
+.titulo-section {
+    font-size: 2.2em;
+    text-align:center;
+    margin: 50px 0px;
+    position: relative;
+}
+
+.titulo-section::after {
+    content:'';
+    width: 230px;
+    height: 5px;
+    background:rgb(200, 169, 66);
+    position: absolute;
+    top: 42px;
+    left: 50%;
+    transform: translate(-50%);   
+}
+
+
+.titulo-section::before {
+    content:'';
+    width: 230px;
+    height: 5px;
+    background:rgb(200, 169, 66);
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translate(-50%);   
+}
+
+.capital-noxus {
+    height: 150px;
+    width: 270px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+.historia-paragrafo {
+    font-size: 1.5em;
+    margin: 15px 0px;
+}
+
+.curiosidades-noxus {
+    margin: 1em 0em;
+    padding: 30px;  
+}
+
+.sociedade-noxus {
+    height: 150px;
+    width: 270px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+.campeoes-noxus {
+    margin: 1em 0em;
+    padding: 30px;  
+    position: relative;
+
+  
+}
+
+.lista-campeoes {
+    height: 500px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.item-lista {
+    float:left;
+    width: 300px;
+    margin: 0px 0px 20px 20px;
+    position: relative;
+}
+
+
+.img-campeao {
+    width: 300px;
+    height: 180px;
+}
+
+.item-lista p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.item-lista:nth-child(5) {
+    margin-left: 190px;
+}
+
+.formulario-noxus {
+    margin: 1em 0em;
+    padding: 30px;  
+    height: 1000px;  
+    position: relative;
+ 
+}
+
+
+.caixa-formulario { 
+    margin: 0 auto;
+    width: 30%;
+    background-image: linear-gradient(to right,rgb(192, 24, 24),rgb(116, 20, 20));
+    border: solid 3px black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+.titulo-formulario {
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 8px;
+    background: rgb(200, 169, 66);
+    font-size: 1.2em;
+    text-align: center;
+    color: black;
+}
+
+.caixa-input {
+    position: relative;
+}
+
+.input-user {
+    border: none;
+    outline:none;
+    background:none;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    color: white;
+    font-size: 15px;
+    width:100%;
+    letter-spacing: 2px; 
+}
+
+.label-input{
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.input-user:focus ~ .label-input,
+.input-user:valid ~ .label-input {
+    top: -20px;
+    font-size: 12px;
+    color:rgb(200, 169, 66);
+}
+
+.caixa-regiao {
+    margin: 25px 0px;
+}
+
+.paragrafo-dados {
+    margin-bottom: 15px;
+    font-size: 18px;
+ 
+}
+
+.caixa-dataNascimento .label-dataNascimento {
+    font-size: 18px;
+}
+
+.caixa-dataNascimento .input-dataNascimento {
+    border:none;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.text-area {
+    outline:none;
+}
+
+#botao {
+    width: 100%;
+    padding: 5px;
+    background:rgb(200, 169, 66);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 400ms all;
+}
+
+#botao:hover {
+    background:rgb(0, 0, 0);
+    color:rgb(116, 20, 20);
+}
+
+.fundo-rodape {
+    
+
+}

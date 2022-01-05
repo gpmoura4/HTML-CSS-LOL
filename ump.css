@@ -1,0 +1,290 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background: #66ff66;
+    padding: 40px 20px;
+
+}
+
+.cabecalho {
+
+    width: 100%;
+    position: relative; 
+    height: 55px;
+    padding-top: 15px;
+}
+
+
+.titulo-img {  
+    float: left;
+
+}
+
+.titulo-img h1 { 
+
+    float: left;
+    font-size: 3em;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    margin: 0 0 5px 7px;    
+    
+}
+
+.logo-ump {
+    width: 79px;
+    height: 78px;
+    position: absolute;
+    top: 0px;
+}   
+
+nav {
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav a {
+    color: black;
+    font-weight:bold;
+    font-size: 1.6em;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+nav a:hover {
+    color:rgb(255, 81, 0);
+}
+
+
+main {
+    padding: 1.2em 0;
+    position:relative;
+}
+
+
+.titulo-principal {
+    text-align:center;
+    margin: 0 0 1.2em 0;
+    font-weight: bold;
+    font-size: 2em;
+    clear:left;
+    transition: 300ms;
+
+}
+
+.titulo-principal:hover {
+
+    color:rgba(3, 233, 61, 50%);
+
+}
+
+.titulo-principal::first-letter {
+    font-size: 40px;
+    color: green;
+}
+
+
+.titulo-principal::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: currentColor;
+    display:block;
+    margin: 10px auto;
+
+}
+
+
+
+.subtitulo {
+    text-align: center;
+    font-size: 1.7em;
+    margin: 0 0 1.5em 0;
+}
+
+section {  
+    padding: 2em 1em;
+    margin: 60px 0px;
+    height: 450px;
+    position: relative;
+
+}
+
+.img-igreja {
+    float:left;
+    margin: 0 15px 15px 0;
+    width: 300px;
+    box-shadow: -10px 10px black;
+    backdrop-filter: blur(0px);
+}
+
+.historia-igreja p {
+    font-size: 1.5em;
+    margin-bottom: 26px;
+}
+
+
+
+.membros-diretoria {
+
+    height: 300px;
+    position: relative;
+}
+
+.diretoria-cargos {
+
+    display: block;
+    padding: 18px 0 0px 18px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.diretoria-cargos li {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.diretoria-cargos p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.diretoria-cargos img {
+    width: 200px;
+    margin: 0 0 12px 0;
+}
+
+
+.video-presbiterianismo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: -10px 10px 10px 10px #000000, 10px -10px #cc0000;
+}
+
+
+.campeoes {
+    height: 400px;
+    
+}
+
+
+.darius {
+    position: absolute;
+    left: 50%;
+    transform:translate(-50%);
+ 
+}
+
+.darius-skills {
+    float: left;
+    margin: 0 20px 0px 0px;
+}
+
+
+.darius-skills .itens {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.itens_fifth {
+    color: #cc0000; 
+}
+
+.itens::before {
+    content: "✓";
+}
+
+.darius-skin {
+    box-shadow: -10px 10px 5px 5px black;
+    backdrop-filter: blur(0px);
+}
+footer {
+    border: solid black 2px;
+   
+   
+}
+
+
+.fundo { 
+    height: 400px;
+    background: url(imagens/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    header {
+        background: #66ff66;
+        padding: 30px 5px;
+    }
+
+    .cabecalho {
+
+        padding-top: 0px;
+    }
+    
+    
+    .titulo-img {  
+        width: 10px;
+        
+
+    }
+
+
+    .titulo-img h1 {
+        float: left;
+        font-size: 1.5em;
+        margin: 0 0 5px 5px;    
+         
+    }
+
+    .logo-ump {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 110px;
+    top: 0px;
+    }
+
+    nav {
+        width: 20%;
+        margin-right: 0px;
+    
+       
+       
+    }
+
+    nav li {
+
+        margin-right: 0em;
+    }
+    
+
+    nav a {
+        color: black;
+        font-weight:bold;
+        font-size: 1em;
+        text-decoration: none;
+        transition: 0.5s all;
+    }
+
+
+}
+
+
+
